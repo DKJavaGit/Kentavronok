@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="239.0" prefWidth="381.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kentavr.Controller1">
+
+   <Text layoutX="122.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Код-Пароль" textAlignment="CENTER">
+      <font>
+         <Font size="25.0" />
+      </font>
+   </Text>
+   <Text layoutX="14.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Автор: Краснов Даниил Алексеевич" />
+   <Text layoutX="14.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Куратор: Амирова Мадина Муслимовна" />
+   <ImageView fx:id="imageView" fitHeight="50.0" fitWidth="50.0" layoutX="14.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true" />
+   <Button fx:id="changeScene" layoutX="94.0" layoutY="176.0" mnemonicParsing="false" onAction="#changeScene" prefHeight="41.0" prefWidth="194.0" text="Приступим-&gt;">
+      <font>
+         <Font size="21.0" />
+      </font>
+   </Button>
+</AnchorPane>
